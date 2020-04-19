@@ -37,39 +37,76 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="icon" href="icon.png">
+    <link rel="icon" href="assets/icon.png">
 
     <!--APPLE TOUCH ICON-->
-    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-icon" href="assets/icon.png">
 
     <link rel="canonical" href="https://app.shayanys.com/FunPlanner" />
 
     <title>Fun Planner App</title>
+
+    <style>
+      .header, .footer {background-color: #f7F7F7}
+      .header {border-bottom: 1px solid rgba(0,0,0,.1)}
+      .footer {border-top: 1px solid rgba(0,0,0,.1)}
+      .description {margin: 27px auto 0 auto; max-width: 500px; color: rgba(0,0,0,.7)}
+    </style>
   </head>
   <body>
-    <div class="container-fluid text-center">
-        <h1 class="mt-5">Fun Planner</h1>
-
-        <hr />
-        <h4 class="mt-5">Found an issue?</h4>
-        <a href="https://github.com/shayan-ys/Fun-ToDo/issues" target="_blank">Submit an issue here on GitHub.</a>
-
-        <h4 class="mt-5">Open Source on GitHub</h4>
-        <a href="https://github.com/shayan-ys/Fun-ToDo/" target="_blank">Give it a star</a>
-
-        <h4 class="mt-5">Privacy Policy:</h4>
-        <a href="privacy.pdf">policy.pdf</a>
-
-        <h4 class="mt-5">Credits:</h4>
-        <p>Created using 
-            <a href="https://reactnative.dev">React-Native</a>, 
-            <a href="https://react-native-elements.github.io/react-native-elements/">React Native Elements</a> UI library and 
-            <a href="https://reactnavigation.org">React Navigation</a>.
-            <br />
-            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-        </p>
-        <hr />
-        <p>Application developed by <a href="https://shayanys.com">Shayan Ys</a> on April 2020.</p>
+    <div class="container-fluid text-center header">
+      <h1 class="pt-4 pb-1">Fun Planner
+        <img width="50" src="assets/icon.png" alt="icon" style="border-radius: 10px;" />
+      </h1>
     </div>
+
+    <div class="container-fluid text-center">
+      <p class="description">
+        Ever wondering what to do tonight? Forget how to remember every cool activities throughout the year?
+        <br />
+        Fun Planner is here to help!
+        <br /><br />
+        Create an activity, whenever it comes to your mind, e.g. Skiing.
+        <br />
+        Modify options like price range, e.g. $$, Seasons: Winter only, Weekends, any additional notes you want,..
+        Hit save!
+        <br />
+        Later when the right season comes, you can filter your activities based on seasons, days of the week and price range.
+        <br /><br />
+        Finding out what to do tonight, never been easier!
+      </p>
+
+      <h4 class="mt-5">Download</h4>
+      <a href="https://apps.apple.com/ca/app/fun-planner/id1508381465">
+        <img width="150" src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" />
+      </a>
+
+      <h4 class="mt-5">Open Source on GitHub</h4>
+      <a class="github-button" href="https://github.com/shayan-ys/Fun-ToDo" data-icon="octicon-star" data-size="large" aria-label="Star shayan-ys/Fun-ToDo on GitHub">Star</a>
+      &nbsp;
+      <a class="github-button" href="https://github.com/shayan-ys" data-size="large" aria-label="Follow @shayan-ys on GitHub">Follow @shayan-ys</a>
+
+      <h4 class="mt-5">Found an issue?</h4>
+      <a class="github-button" href="https://github.com/shayan-ys/Fun-ToDo/issues" data-icon="octicon-issue-opened" data-size="large" aria-label="Issue shayan-ys/Fun-ToDo on GitHub">Issue</a>
+
+      <h4 class="mt-5">Privacy Policy:</h4>
+      <a href="privacy.pdf">policy.pdf</a>
+
+      <h4 class="mt-5">Credits:</h4>
+      <p>Created using 
+          <a href="https://reactnative.dev">React-Native</a>, 
+          <a href="https://react-native-elements.github.io/react-native-elements/">React Native Elements</a> UI library and 
+          <a href="https://reactnavigation.org">React Navigation</a>.
+          <br />
+          Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </p>
+    </div>
+
+    <div class="container-fluid text-center footer mt-5 pt-3 pb-3">
+      <p>Application developed by <a href="https://shayanys.com">Shayan Ys</a> on April 2020.</p>
+      <p style="color: rgba(0,0,0,.6)">© 2020 Shayan Yousefian All Rights Reserved</p>
+    </div>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>
